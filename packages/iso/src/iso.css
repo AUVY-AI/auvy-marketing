@@ -1,0 +1,85 @@
+/**
+ * Stroke / fill class names for isometric plates.
+ * Use with tokens.css. Remotion may also use strokeStyles from the package.
+ */
+
+.iso-deck {
+  fill: var(--iso-face-stage, #eef0f3);
+  stroke: none;
+}
+
+.iso-lattice {
+  fill: none;
+  stroke: var(--iso-border-strong, #c5cad3);
+  stroke-width: 0.03;
+  opacity: 0.42;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
+}
+
+.iso-lattice-edge {
+  fill: none;
+  stroke: var(--iso-border-ink, #1a1d24);
+  stroke-width: 0.065;
+}
+
+.iso-structure {
+  fill: none;
+  stroke: var(--iso-border-ink, #1a1d24);
+  stroke-width: 0.07;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.iso-emphasis {
+  fill: none;
+  stroke: var(--iso-border-ink, #1a1d24);
+  stroke-width: 0.11;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.iso-face-glass {
+  fill: var(--iso-face-glass, rgba(255, 255, 255, 0.55));
+  stroke: none;
+}
+
+.iso-face-committed {
+  fill: var(--iso-face-committed, #ffffff);
+  stroke: none;
+}
+
+.iso-face-surface {
+  fill: var(--iso-face-stage-2, #e6e9ee);
+  stroke: none;
+}
+
+.iso-trace {
+  fill: none;
+  stroke: var(--iso-text-tertiary, #8b919c);
+  stroke-width: 0.065;
+}
+
+.iso-trace-ink {
+  fill: none;
+  stroke: var(--iso-border-ink, #1a1d24);
+  stroke-width: 0.09;
+}
+
+.iso-filament {
+  fill: none;
+  stroke: var(--iso-accent, #d7025c);
+  stroke-width: 0.13;
+  stroke-linecap: round;
+}
+
+.iso-node {
+  fill: var(--iso-face-committed, #ffffff);
+  stroke: var(--iso-border-ink, #1a1d24);
+  stroke-width: 0.06;
+}
+
+.iso-node-accent {
+  fill: var(--iso-accent, #d7025c);
+  stroke: none;
+}

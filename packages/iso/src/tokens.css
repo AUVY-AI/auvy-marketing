@@ -1,0 +1,25 @@
+/**
+ * Marketing iso tokens — Filament-aligned light defaults.
+ * Consumers may override; do not fork Filament product widgets here.
+ */
+:root {
+  --iso-bg-page: #f7f8fa;
+  --iso-bg-raised: #ffffff;
+  --iso-face-stage: #eef0f3;
+  --iso-face-stage-2: #e6e9ee;
+  --iso-face-glass: rgba(255, 255, 255, 0.55);
+  --iso-face-committed: #ffffff;
+  --iso-border-subtle: #e2e5ea;
+  --iso-border-strong: #c5cad3;
+  --iso-border-ink: #1a1d24;
+  --iso-text-primary: #12141a;
+  --iso-text-secondary: #4a5160;
+  --iso-text-tertiary: #8b919c;
+  /* Filament ribbon crimson */
+  --iso-accent: #d7025c;
+  --iso-accent-soft: rgba(215, 2, 92, 0.12);
+  --iso-accent-ink: #d7025c;
+  --iso-signal-sync-soft: rgba(26, 29, 36, 0.06);
+  --iso-connectome-dot: #c5cad3;
+  --iso-connectome-wake: #d7025c;
+}
